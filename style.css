@@ -1,0 +1,75 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.mainGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    height: 500px;
+    
+    /* positioning in the middle of the page */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#one{
+    border-bottom: 2px solid #919191 ;
+    border-right: 2px solid #919191 ;
+}
+#two{
+    border-bottom: 2px solid #919191 ;
+    border-right: 2px solid #919191 ;
+    border-left: 2px solid #919191 ;
+}
+#three{
+    border-bottom: 2px solid #919191 ;
+    border-left: 2px solid #919191 ;
+}
+#four{
+    border-bottom: 2px solid #919191 ;
+    border-right: 2px solid #919191 ;
+    border-top: 2px solid #919191 ;
+    
+}
+#five{
+    border: 2px solid #919191;
+}
+#six{
+    border-bottom: 2px solid #919191 ;
+    border-left: 2px solid #919191 ;
+    border-top: 2px solid #919191 ;
+}
+#seven{
+    border-right: 2px solid #919191 ;
+    border-top: 2px solid #919191 ;
+
+}
+#eight{
+    border-right: 2px solid #919191 ;
+    border-left: 2px solid #919191 ;
+    border-top: 2px solid #919191 ;
+
+}
+#nine{
+    border-left: 2px solid #919191 ;
+    border-top: 2px solid #919191 ;
+}
+.subgrid{
+    text-align: center;
+    font-size: 100px;
+    color: #919191;
+    width: 166px;
+    height: 166px;
+}
+body{
+    background: #292929;
+}
+#status{
+    text-align: center ;
+    font-size: 50px;
+    color: #919191; 
+}
